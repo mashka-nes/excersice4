@@ -1,0 +1,38 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .cell {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 5rem;
+    text-align: center;
+    padding: 5rem;
+    border-top: 3px solid black;
+   border-left: 3px solid black;
+  }
+  .cell-1 {
+    background: #f44336;
+  }
+  .cell-2 {
+    background: #FF9800;
+  }
+  .cell-3 {
+    background: #FFEB3B;
+  }
+  .cell-4 {
+    background: #8BC34A;
+  }
+  .cell-5 {
+    background: #2196F3;
+  }
+  .cell-6 {
+    background: #9C27B0;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
